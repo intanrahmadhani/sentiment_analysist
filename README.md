@@ -1,25 +1,25 @@
 # Sentiment Analysis with Caikit and Hugging Face
 
-This repository showcases a sentiment analysis service utilizing the Caikit runtime framework in combination with Hugging Face models. It establishes a gRPC server to manage sentiment analysis requests, allowing users to analyze text inputs and determine if they are positive, negative, or neutral.
-
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
+Repositori ini menampilkan layanan analisis sentimen yang menggunakan kerangka kerja runtime Caikit yang dikombinasikan dengan model Hugging Face. Ini membuat server gRPC untuk mengelola permintaan analisis sentimen, yang memungkinkan pengguna untuk menganalisis input teks dan menentukan apakah input tersebut positif, negatif, atau netral.
 
 ## Overview
 
-This project uses Caikit’s modular framework to operate Hugging Face’s sentiment analysis models within a gRPC server environment. The example client script demonstrates how to send text input to the server and receive sentiment classification results.
+Proyek ini menggunakan kerangka kerja modular Caikit untuk mengoperasikan model analisis sentimen Hugging Face dalam lingkungan server gRPC. Contoh skrip klien menunjukkan cara mengirim input teks ke server dan menerima hasil klasifikasi sentimen.
 
 ## Features
 
-- **gRPC Server**: Operates a server to handle sentiment analysis requests over gRPC.
-- **Caikit Runtime Integration**: Simplifies model operation using the Caikit runtime framework.
-- **Hugging Face Models**: Utilizes pretrained sentiment classification models from Hugging Face.
+- **gRPC Server**: Mengoperasikan server untuk menangani permintaan analisis sentimen melalui gRPC.
+- **Caikit Runtime Integration**: Menyederhanakan operasi model menggunakan kerangka kerja runtime Caikit.
+- **Hugging Face Models**: Memanfaatkan model klasifikasi sentimen yang sudah terlatih dari Hugging Face.
 
 ## Installation
 
 1. **Clone the Repository**  
-   Clone this repository to your local machine:
+   Kloning repositori ini ke mesin lokal kita:
    ```bash
-   git clone https://github.com/BudimanZahri/Sentiment-Analysis-using-Caikit-and-Hugging-Face.git
+   git clone https://github.com/intanrahmadhani/sentiment_analysist.git
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+3. **Environment Setup**
+   Pastikan konfigurasi yang diperlukan (misalnya, jalur model atau pengenal) diatur dengan benar di lingkungan atau file konfigurasi kita.
